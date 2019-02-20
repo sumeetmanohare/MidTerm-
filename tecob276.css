@@ -1,0 +1,42 @@
+h1{
+	font-size:27px;
+	font-style:Italic;
+	text-align:center;
+	border-style:solid;
+	background-color:yellow;
+	border-color:blue;
+	padding:5px;
+
+  }
+  
+h2{
+	font-size:20px;
+	text-align:center;
+	
+  }
+  
+body{
+		background-color:yellow;
+	}
+form{
+ 		/*text-align:center;*/
+ 		margin:100px;
+ 		margin-left:500px;
+ 		
+ 	}
+.navbar{
+	font-size:17px;
+	border-style:solid;
+	background-color:yellow;
+	border-color:blue;
+	padding:5px;
+	font-style:italic;
+	}
+.footer{
+		text-align:center;
+		color:black;
+		}	
+	
+.navbar a:hover{
+	color:red;
+	}

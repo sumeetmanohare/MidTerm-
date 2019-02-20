@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
+  <script type="text/javascript" src="http://dev.jquery.com/view/trunk/plugins/validate/jquery.validate.js"></script> 
+    <script type="text/javascript"> 
+<script>
+$(document).ready(function() {
+$("#Signup").validate({ 
+	        rules: { 
+	          firstname: "required",
+	          lastname:"required"
+	        }
+	      }); 
+    });
+</script>
+
+<link rel=stylesheet type="text/css" href="tecob276.css">
+<h1><b>Flipkart<b></h1>
+<body>
+<div class=navbar>
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">My Cart</a>
+<a href="#">Log In</a>
+</div>
+
+<h2>Sign Up here</h2>
+<form id="Signup" id="Signup">
+FirstName:<br>
+<input type="text" name="firstame"> <br>
+LastName:<br>
+<input type="text" name="lastname"><br>
+Mobile No:<br>
+<input type="text" name="mobno"><br>
+Address:<br>
+<input type="text" name="address"><br>
+Enter Password:<br>
+<input type="text" name="password"><br>
+Confirm password:<br>
+<input type="text" name="confpass"><br>
+<input type="submit" name="submit" value="Sign Up">
+</form>
+</head>
+
+<div class=footer>
+<a>Copyright 2019. All rights reserved</a>
+</div>
+</html>
+
